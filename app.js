@@ -3,6 +3,7 @@
  */
 var express = require('express');
 var fs = require('fs');
+var index = require('./data/index.js');
 var app = express();
 
 app.set('view engine', 'ejs');
@@ -10,9 +11,7 @@ app.use(express.static('public'));
 
 app.get('/', function(req, res) {
 
-    fs.readFile('./data/index.json', 'utf8', function(err, data) {
-        res.render('index', JSON.parse(data));
-    });
+    res.render('index', index);
 
 });
 
