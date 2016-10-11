@@ -1,0 +1,11 @@
+{
+  "name": "hanselley",
+  "version": "1.0.0",
+  "description": "Mandatory Assignment 11/10/16",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hans Elley",
+  "license": "ISC"
+}

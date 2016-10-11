@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="app.css" type="text/css" rel="stylesheet" />
+    <title><%= title %> : Mandatory Assignment 1</title>
+</head>
+<body>
+<div class="title box">
+    <%= title %>
+</div>
+<div class="tabs box">
+    <%if (title !== 'Index') { %>
+    <a href="/">Index</a>
+    <% } else { %>
+    <%= title %>
+    <% } %>
+    |
+    <%if (title !== 'About') { %>
+    <a href="/about">About</a>
+    <% } else { %>
+    <%= title %>
+    <% } %>
+</div>
+<div class="subtitle box">
+    <%= subtitle %>
+</div>
+<div class="text box">
+    <%= text %>
+</div>
+</body>
+</html>

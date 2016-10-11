@@ -1,0 +1,44 @@
+body {
+    background-color:#fff;
+    font-family:verdana;
+    color:#000;
+    padding:0px;
+    margin:0px;
+}
+
+.title {
+    background-color:#90f;
+    color:#fff;
+    font-size:30px;
+    font-weight:bold;
+}
+
+.tabs {
+    background-color:#60c;
+    color:#fff;
+    font-size:10px;
+    font-weight:bold;
+}
+
+.subtitle {
+    background-color:#f09;
+    color:#fff;
+    font-size:12px;
+}
+
+.text {
+    font-size:16px;
+}
+
+a {
+    color:#0f9;
+    font-weight:normal;
+}
+
+a:hover {
+    color:#fff;
+}
+
+.box {
+    padding:10px;
+}
